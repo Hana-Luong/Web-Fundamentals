@@ -1,0 +1,11 @@
+There are three ways of attaching CSS to a document:  inline, internal, and external. 
+Inline and internal CSS are considered to be bad practices. We will only use external 
+stylesheets, linked from the HTML document using the <head> tag. Refer back to the HTML 
+section if you don't remember how to do this.
+
+CSS uses a priority scheme to determine which style rules apply if more than one rule
+ matches a particular element. In this scheme, priorities (or "weights")  cascade and 
+ are assigned to rules, so that the results are predictable.
+
+A stylesheet is a list of rules. Each rule (or "rule-set") consists of one or more 
+selectors and a declaration block.

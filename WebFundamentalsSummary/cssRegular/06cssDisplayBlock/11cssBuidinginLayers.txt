@@ -1,0 +1,33 @@
+HTML First and CSS Second
+
+Be careful of this, as it may be taken out of context: when we recommend HTML first and 
+CSS second, we mean the first HTML element needs to be added, and then that element needs
+to be styled. Then add the second HTML element and apply styling to that. Trying to write
+all of the HTML first and then apply CSS will make projects x10 more challenging for no 
+good reason. This approach really works and allows you to keep a steady pace. Keep a good
+visual of your project as you build on the layers, like making a cake.
+
+Building in Layers
+
+Building complex websites is easier than you may initially think. Websites are broken down
+into sections. By doing this, we can build a website similar to making a cake. We first 
+layer the base, and add the next layer, and so on until we are done layering our cake. 
+In HTML and CSS, we first build the very first section (the base), usually called the 
+'container' or 'wrapper'. We add the HTML for the container, then the CSS for the 
+container and check our outcome. Following the container, we build out our next layer 
+of rows or columns. Each row or column we add, we add its HTML, then its CSS and check 
+our outcome. With this approach, building even the most complex looking websites becomes
+as easy as what 'Plotting Your Blocks' will be after some practice. Each section is built 
+independently from other sections, from the bottom layer div, towards the top, left to 
+right, as shown in the video.
+
+Outline is a helpful property that can be applied to all elements. Without a background 
+color or border on each element, it is difficult to guess the start and end of an element. 
+This is where outline can help. It applies a border on all elements without the additional 
+width the border property would add. It is used mostly for development. Unlike border, 
+when we remove the outline property in our CSS, our elements will not alter in size.
+Outline is a great styling property to give our project a pseudo grid over all elements
+for better visualization.
+
+/style.css
+* { outline: 1px dotted red; }

@@ -1,0 +1,29 @@
+Editing HTML and CSS can feel like disarming a bomb; one little change and your project 
+goes bananas. Your greatest ally in editing is a browser tool called Developer Tools. 
+It is included in Chrome, Firefox, the latest version of Internet Explorer, Edge, and 
+Safari.
+
+To access inspect element, simply right-click any element within the browser window and
+click 'Inspect' and voila! Inspect Element is a feature that displays all of the 
+properties of the webpage you are currently viewing.
+
+Color Picker
+Color palette selection and design are important parts of designing a web page. To help 
+with precise color selection, there are a variety of tools available to both find/define 
+colors and assemble color palettes. Tools for generating color schemes are easily found 
+searching the internet, but getting the exact color used on your favorite website's button 
+borders might seem more difficult. In this section, we will outline how to use the Chrome 
+ool's Color picker to help us find colors from other websites that we may be after!
+
+To access the colorpicker tool, we need to first open the Chrome Dev tools and select an
+element with a background color. Once we have the dev tools opened and an element with 
+a background color selected we can click on the color patch in the Style window of the 
+Dev tools. At this point, the dev tools will display a variety of color information about
+the background color of the element- showing different adjustable slides, color code 
+values, related colors, and a gradient of different intensities and darkness.
+
+To use the color picker to find the values of colors on the page, click the eye dropper
+icon to toggle color-picker to ON (should turn blue). At this point, you can move your 
+mouse cursor over the webpage and a small circle showing the magnified pixels near your 
+cursor will be displayed, with the central pixel outlined and its' color value displayed
+on click.

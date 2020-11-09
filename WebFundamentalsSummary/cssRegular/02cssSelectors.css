@@ -1,0 +1,38 @@
+/* Selectors are used for declaring the HTML elements to which a style will apply.
+
+The most common selectors are:
+
+all elements with a specific HTML tag (e.g., p, h1)
+elements specified by the following attributes:
+id (these are preceded by # in CSS)
+These must be unique and can only be used once on your page.
+class (these are preceded by .  in CSS)
+These can be used multiple times to share repeating CSS code.
+Declaration Block
+A declaration block is a list of declarations contained within braces. Each individual 
+declaration consists of a property, a colon (":"), and a value. If a block has multiple 
+declarations, they must be separated by a semi-colon(";"). */
+
+/* For all "p" HTML tags, make the font color blue: */
+p{
+  color: blue;
+}
+
+/* For an element with the id "important", make the font size 36px. */
+#important{
+  font-size: 36px;
+}
+
+/* For all elements with the class "info", make the background green and add a 1px wide 
+black border. */
+.info{
+  background-color: green;
+  border: 1px solid black;
+}
+
+/* In the above examples, p, #important, and .info are selectors. 
+Color, font-size, background-color, and border are properties. */
+
+
+/* http://www.webdesignerdepot.com/2013/08/10-css-selectors-you-shouldnt-code-without/
+http://www.w3schools.com/cssref/css_selectors.asp */
