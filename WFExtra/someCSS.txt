@@ -1,0 +1,9 @@
+Some reminders:
+
+If you haven’t yet, please shoot me a screenshot of your best work.
+Some of you are creating multiple classes for things which have the same styling; instead use one class and apply it to multiple elements.
+In the stylesheet, p targets all paragraph elements, .wrap targets all elements with a class of wrap, and #very-specific targets the element with an ID of very-specific. For most use cases,
+I’d stick with elements or classes in terms of the styling.
+
+CODE PEN
+https://codepen.io/bali_balo/pen/BLJONk

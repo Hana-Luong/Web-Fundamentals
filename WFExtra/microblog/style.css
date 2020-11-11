@@ -1,0 +1,111 @@
+/* browser reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* border: 1px dashed pink; */
+  box-sizing: border-box;
+}
+
+.navigation {
+  background: #ffe599;
+  padding: 15px;
+  border: 3px solid black;
+  margin-bottom: 15px;
+}
+
+.link-home {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+
+/* this holds everything under the navigation bar */
+.wrap {
+  width: 990px;
+  margin: 0 auto;
+  display: flex;
+  /* doesn't make a difference in this case */
+  justify-content: space-between;
+}
+
+aside {
+  background: #d5a6bd;
+  height: 450px;
+  width: 250px;
+  border: 3px solid black;
+  /* display: inline-block; */
+  /* margin-right: 15px; */
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.box {
+  background: white;
+  height: 180px;
+  border: 3px solid black;
+}
+
+.inner-wrap {
+  /* display: inline-block;
+  vertical-align: top; */
+  width: 725px;
+}
+
+header {
+  /* width: 680px; */
+  border-radius: 10px;
+  border: 3px solid black;
+  background: #b6d7a8;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+}
+
+h4, h5 {
+  text-align: center;
+}
+
+h5 {
+  margin-bottom: 12px;
+}
+
+.article {
+  background: #a2c4c9;
+  /* don't need height so it can stretch vertically */
+  /* height: 400px; */
+  width: 32%;
+  border: 3px solid black;
+  padding: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+footer {
+  border: 3px solid black;
+  padding: 15px;
+  background: #9fc5f8;
+  margin-top: 15px;
+  border-radius: 10px;
+}
